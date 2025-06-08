@@ -12,9 +12,6 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 load_dotenv()
 
-# Required packages:
-# pip install langgraph langchain-openai streamlit python-dotenv requests
-
 # Page configuration
 st.set_page_config(
     page_title="Smart Flight Search Assistant",
