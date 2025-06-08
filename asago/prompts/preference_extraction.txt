@@ -1,0 +1,24 @@
+Extract travel preferences from the user query and structure them for flight search.
+
+USER QUERY: "{user_query}"
+
+Extract and categorize:
+1. **Flight Preferences:**
+- Preferred airlines
+- Direct flights requirement
+- Maximum connections
+- Preferred departure/arrival times
+- Class of service
+
+2. **Travel Context:**
+- Purpose of travel (business, leisure, event)
+- Flexibility on dates
+- Budget considerations
+- Special requirements
+
+3. **Constraints:**
+- Must-have requirements
+- Deal-breakers
+- Time-sensitive factors
+
+Return as structured JSON with extracted preferences and confidence levels.
