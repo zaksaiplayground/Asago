@@ -1,10 +1,11 @@
-"""State model for flight search application.""" 
+"""State model for flight search application."""
 
 from typing import Any, List, TypedDict
 
 
 class FlightSearchState(TypedDict):
     """State model for flight search application."""
+
     user_query: str
     departure_city: str
     arrival_city: str

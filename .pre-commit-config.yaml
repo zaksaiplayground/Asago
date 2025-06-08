@@ -1,17 +1,18 @@
 repos:
-  - repo: local
-    hooks:
-      - id: pylint
-        name: pylint
-        entry: pylint
-        language: system
-        types: [ python ]
-        require_serial: true
-        args:
-          [
-            "-rn", # Only display messages
-            "-sn", # Don't display the score
-          ]
+  # Pylint not supported for python 3.12+ yet, see https://github.com/pylint-dev/pylint/issues/7741
+  # - repo: local
+  #   hooks:
+  #     - id: pylint
+  #       name: pylint
+  #       entry: pylint
+  #       language: system
+  #       types: [ python ]
+  #       require_serial: true
+  #       args:
+  #         [
+  #           "-rn", # Only display messages
+  #           "-sn", # Don't display the score
+  #         ]
   - repo: https://github.com/PyCQA/isort
     rev: 5.13.2
     hooks:

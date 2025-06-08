@@ -1,5 +1,5 @@
 You are a flight booking assistant. Parse this travel request and provide optimal flight search parameters.
-        
+
 CONSTRAINTS:
 - Travel FROM {departure_city} TO {arrival_city}
 - Departure between {departure_range_start} and {departure_range_end}
