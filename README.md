@@ -63,6 +63,8 @@ To run Asago, you'll need:
 5. Output → Friendly, professional flight summary shown to user
 
 ## 📋 TODO
+* Tests: Unit and Integration tests to be written
+* Quality Gates: GuardRails, Fix static checks, validations - pydantic, sonar
 * Fix bug: Improve extraction of flight preferences
 * Clean up: Resolve remaining mypy typing issues
 
